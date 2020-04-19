@@ -30,4 +30,8 @@ attr_accessor :total, :discount
   def items 
     @item
   end
+  
+  def void_last_transaction 
+  
+  end
 end 
