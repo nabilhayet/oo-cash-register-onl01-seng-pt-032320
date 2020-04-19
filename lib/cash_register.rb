@@ -34,8 +34,6 @@ attr_accessor :total, :discount, :last_transaction
   end
   
   def void_last_transaction 
-    @items.pop 
-    if @items.size ==0 
-      @total=0
+    @total=total-last_transaction
   end
 end 
